@@ -4,6 +4,8 @@
 
 This Python project scrapes text from an online job advertisement and analyzes the frequency of keywords within the ad. The primary goal is to help job seekers tailor their resumes and applications by highlighting the most emphasized skills and qualifications. The project demonstrates the use of Python for web scraping, text processing, and data analysis, utilizing the BeautifulSoup, requests, and pandas libraries.
 
+Note: The original script was used to scrape a job advert from the Norwegian site finn.no, however, to show respect for finn.no's policies, I used Chat GPT to create a fake & very similar HTML code for demonstration purposes in the Jupyter Notebook preview.
+
 ## Features
 
 - **HTTP Status Check**: Verifies the accessibility of the webpage before scraping.
