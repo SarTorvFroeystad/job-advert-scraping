@@ -34,3 +34,8 @@ Note: The original script was used to scrape a job advert from the Norwegian sit
 - **Requests**: To handle HTTP requests and fetch web content.
 - **Pandas**: For data manipulation and analysis.
 - **Regex**: To split and clean the text data.
+
+## Future Improvements
+- Remove widely used words (such as "and", "the", "a") from the output to provide more meaningful information - can use the Natural Language Toolkit (NLTK) library for this.
+- Compare (%-based) the output to a CV/resume, so the user can see how well their skillset matches the job.
+- Group the output into categories (such as hard skills, soft skills, technologies, platforms, techniques), to get a clear overview of the skills the company is looking for.
